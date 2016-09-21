@@ -7,5 +7,14 @@
         "nombre": "Jose",
         "apellido": "Pueblo",
         "username": "jose.pueblo"
+    }, {
+        "nombre": "Francisco",
+        "apellido": "Garay",
+        "username": "francisco.garay"
+    }, {
+        "nombre": "Pedro",
+        "apellido": "Torales",
+        "username": "pedro.torales"
     }
+
 ]

@@ -1,4 +1,4 @@
-/**
+ /**
  * Clase encargada de manejar el listado de personas.
  * @class
  */

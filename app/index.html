@@ -26,18 +26,22 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">PWF-App</a>
             </div>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#buscarcontacto/">Buscar Contacto</a>
+            </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="#personas/">Personas</a></li>
                 </ul>
             </div>
+
         </div>
     </nav>
 
     <section class="container">
         <div class="row">
             <section class="col-md-7" ng-view></section>
-            <section class="col-md-5">
+            <section class="col-md-5  ">
                 <div ng-include="'views/formulario-persona-partial.html'"></div>
             </section>
 

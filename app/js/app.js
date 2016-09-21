@@ -8,7 +8,12 @@ app.config(function ($routeProvider) {
         .when('/personas', {
             templateUrl: 'views/lista-persona-partial.html',
             controller: 'listaPersonaCtrl'
+        })
+        .when('/buscarcontacto', {
+            templateUrl: 'views/buscar-contacto.html',
+            controller: 'buscarContactoCtrl'
         });
+
 });
 
 /**

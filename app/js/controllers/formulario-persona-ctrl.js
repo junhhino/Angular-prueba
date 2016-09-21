@@ -19,5 +19,6 @@ app.controller('formularioPersonaCtrl', ['$scope', 'Shared',
         $scope.agregar = function (params) {
             $scope.data.list.push(angular.copy($scope.persona));
         }
+
     }
  ]);
